@@ -15,4 +15,6 @@ services:
      - DATABASE_USER
      - DATABASE_PASSWORD
      - DATABASE_NAME
+     - DATABASE_PLATFORM
+     - DATABASE_PORT
     command: ./doc/docker/install_script.sh
